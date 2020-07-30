@@ -1,0 +1,5 @@
+@import 'test.css';
+
+.discord::before {
+    background: url(~@fortawesome/fontawesome-free/svgs/brands/discord.svg);
+}

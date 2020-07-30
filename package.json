@@ -1,0 +1,26 @@
+{
+  "name": "sprite-plugin-issue",
+  "version": "0.0.1",
+  "description": "Example repo to reproduce an issue with extract-svg-sprite-webpack-plugin.",
+  "repository": "https://github.com/ttpcodes/sprite-plugin-issue",
+  "author": "Alice W. Nguyen <alice.nguyen@ttp.codes>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "css-loader": "4.1.0",
+    "extract-svg-sprite-webpack-plugin": "0.8.1",
+    "html-webpack-plugin": "4.3.0",
+    "mini-css-extract-plugin": "0.9.0",
+    "resolve-url-loader": "3.1.1",
+    "style-loader": "1.2.1",
+    "webpack": "4.44.0",
+    "webpack-cli": "3.3.12"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "5.14.0"
+  },
+  "scripts": {
+    "development": "./node_modules/.bin/webpack --mode=development",
+    "production": "./node_modules/.bin/webpack --mode=production"
+  }
+}
